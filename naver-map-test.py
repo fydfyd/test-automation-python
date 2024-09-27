@@ -9,7 +9,7 @@ driver = webdriver.Chrome()
 # 네이버 홈페이지 열기
 driver.get('https://www.naver.com')
 
-# 네이버 홈페이지가 로드될 때까지 잠시 대기
+# 네이버 홈페이지가 로드될 때까지 대기
 time.sleep(5)
 
 # 네이버 지도 아이콘 찾기 (XPath로 아이콘 요소 찾기)
